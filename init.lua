@@ -141,7 +141,10 @@ for i in ipairs(beds_list) do
 					}
 		},
 	})
-
+	
+	minetest.register_alias("beds:bed_bottom", "colouredbeds:bed_bottom_blue")
+	minetest.register_alias("beds:bed_top", "colouredbeds:bed_top_blue")
+	minetest.register_alias("beds:bed", "colouredbeds:bed_bottom_blue")
 	minetest.register_alias("colouredbeds:bed_"..colour, "colouredbeds:bed_bottom_"..colour)
 	
 	minetest.register_craft({
