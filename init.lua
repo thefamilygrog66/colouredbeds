@@ -7,6 +7,9 @@ local beds_list = {
 	{ "Green Bed", "green"},
 	{ "Blue Bed", "blue"},
 	{ "Violet Bed", "violet"},
+	{ "Black Bed", "black"},
+	{ "Grey Bed", "grey"},
+	{ "White Bed", "white"},
 }
 
 for i in ipairs(beds_list) do
